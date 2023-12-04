@@ -1,10 +1,11 @@
+
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navrab';
 import LoadingPage from './components/loadingpage';
 import { usePointerPosition } from './components/usePointerPosition';
 import { useDelayedValue } from './components/useDelayedValue';
 import Body from './components/Body';
-
+import Card from './components/Card';
 const App = () => {
   const [loading, setLoading] = useState(true);
 
@@ -67,9 +68,10 @@ const App = () => {
         <>
           <Navbar />
           {/* Include the Canvas component */}
+          <Card/>
           <Canvas />
           {/* Other components go here */}
-          <Body />
+       
         </>
       )}
     </div>
