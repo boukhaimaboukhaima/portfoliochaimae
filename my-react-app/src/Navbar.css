@@ -1,0 +1,53 @@
+/* Navbar.css */
+
+body.dark-mode {
+    background-color: #000000b4; /* Dark background color for the entire page */
+    color: #f0f0f0; /* Light text color for the entire page */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #938BA1;
+    color: inherit; /* Inherit text color from the body */
+    padding: 0.2rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: rgb(250, 250, 250);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 700px; /* Adjusted margin-left for the .nav-list */
+}
+
+.nav-item {
+    cursor: pointer;
+    padding: 0.75rem;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+    background-color: #a1a9b8;
+}
+
+.active {
+    background-color: #a1a9b8;
+}
+
+.dark-mode-button {
+    cursor: pointer;
+    padding: 0.90rem;
+    border-radius: 15px;
+    margin-right: 10px; /* Adjusted margin-left for the .dark-mode-button */
+    transition: background-color 0.3s, color 0.3s; /* Add color transition */
+}
+
+.dark-mode-button:hover {
+    background-color: #a1a9b8;
+    color: inherit; /* Inherit text color from the body */
+}

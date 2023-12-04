@@ -1,0 +1,26 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container take the full height of the viewport */
+  
+   
+}
+
+.card {
+    background-color: #1C448E  ; /* Set opacity to 0.9 (adjust as needed) */
+    padding: 20px;
+    border-radius: 15px; /* Add rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    width: 700px; /* Set the width as needed */
+    max-width: 80%; /* Set a maximum width if you want it to be responsive */
+    height: 200px; /* Set the height as needed */
+}
+/* 
+h1 {
+    text-align: ;
+}
+
+p {
+    text-align: justify;
+} */
