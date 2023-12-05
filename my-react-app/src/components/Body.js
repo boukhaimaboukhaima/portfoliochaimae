@@ -3,16 +3,13 @@ import '../Body.css';
 
 const Body = () => {
     return (
-        <div className="card-container">
-            <div className="card">
-                <h1>Chaimae Boukhaima</h1>
-                <p>
-                    I am a web developer who loves learning new programming languages and exploring
-                    new possibilities. Passionate about creating innovative and user-friendly web
-                    applications.
-                </p>
-            </div>
-        </div>
+      <div class="container">
+   <div class="row">
+      <div class="neons col-12">
+         <h3 ><em>Welcome </em></h3>
+      </div>
+   </div>
+</div>
     );
 };
 
