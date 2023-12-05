@@ -4,8 +4,9 @@ import Navbar from './components/Navrab';
 import LoadingPage from './components/loadingpage';
 import { usePointerPosition } from './components/usePointerPosition';
 import { useDelayedValue } from './components/useDelayedValue';
-import Body from './components/Body';
+import Footer from './components/Footer';
 import Card from './components/Card';
+import Description from './components/Description';
 const App = () => {
   const [loading, setLoading] = useState(true);
 
@@ -71,7 +72,8 @@ const App = () => {
           <Card/>
           <Canvas />
           {/* Other components go here */}
-       
+       <Description/>
+       <Footer/>
         </>
       )}
     </div>

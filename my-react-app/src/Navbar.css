@@ -3,9 +3,12 @@
 body.dark-mode {
     background-color: #000000b4;
     color: #f0f0f0;
+   
 }
 
 .navbar {
+   
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
