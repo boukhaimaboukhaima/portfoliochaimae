@@ -1,14 +1,17 @@
-// LoadingPage.js
-
 import React from 'react';
-import logo from '../images/image-removebg-preview.png'; // Adjust the path accordingly
+import '../loadingpage.css';
 
-const LoadingPage = () => {
+const App = () => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <img src={logo} alt="Logo" style={{ width: '500px', height: 'auto' }} />
+<div className="loader">
+    <div className="face">
+        <div className="circle"></div>
     </div>
+    <div className="face">
+        <div className="circle"></div>
+    </div>
+</div>
   );
 };
 
-export default LoadingPage;
+export default App;

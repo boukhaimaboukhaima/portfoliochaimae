@@ -1,28 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-
-
-.neons {
-  margin-top: 10rem;
-  text-align: center;
+body{
+  padding: 40px;
+   
 }
 
-.neons h3 {
-  font-size: 9rem;
-  text-align: center;
-  font-weight: bold;
-  animation: glow 2s ease-in-out infinite alternate;
-  font-family: 'Codystar';
-}
-
-@keyframes glow {
-  from {
-    color: #fff;
-    text-shadow: 0 0 10px  #938BA1, 0 0 20px  #938BA1, 0 0 30px  #938BA1, 0 0 40px  #938BA1, 0 0 50px  #938BA1, 0 0 60px  #938BA1, 0 0 70px  #938BA1, 0 0 90px  #938BA1;
-  }
+.p2 {
   
-  to {
-    color: gray;
-    text-shadow: 0 0 20px  #938BA1, 0 0 30px  #938BA1, 0 0 40px  #938BA1, 0 0 50px  #938BA1, 0 0 60px  #938BA1, 0 0 70px  #938BA1, 0 0 80px  #938BA1, 0 1 90px  #938BA1;
-  }
+  border-right: solid 3px #2196f3;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+}
+
+/* Animation */
+.p2 {
+  animation: animated-text 4s steps(35,end) 1s 1 normal both,
+             animated-cursor 600ms steps(35,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 502px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: #2196f3; }
+  to{border-right-color: transparent;}
 }

@@ -14,9 +14,11 @@
 html, body {
   height: 100%;
   margin: 0; /* Added to remove default margin */
+  
 }
 
 body {
+
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -28,7 +30,7 @@ body {
   display: grid;
   grid-gap: 1rem;
   padding: 1rem;
-  max-width: 1024px;
+  max-width: 1324px;
   margin: 0 auto;
   font-family: var(--font-sans);
 }
@@ -46,13 +48,15 @@ body {
 }
 
 .card2 {
+  
+
   position: relative;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
   padding: 1rem;
   margin-top: 50%;
-  width: 100%;
+  width: 90%;
   text-align: center;
   color: whitesmoke;
   background-color: whitesmoke;

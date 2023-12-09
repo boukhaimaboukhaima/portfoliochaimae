@@ -3,12 +3,8 @@ import '../Body.css';
 
 const Body = () => {
     return (
-      <div class="container">
-   <div class="row">
-      <div class="neons col-12">
-         <h3 ><em>Welcome </em></h3>
-      </div>
-   </div>
+      <div className="container">
+  <p className="p2">This is a simple introduction.</p>
 </div>
     );
 };

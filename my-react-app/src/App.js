@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navrab';
+import Header from './components/header';
 import LoadingPage from './components/loadingpage';
 import { usePointerPosition } from './components/usePointerPosition';
 import { useDelayedValue } from './components/useDelayedValue';
@@ -68,7 +68,7 @@ const App = () => {
       ) : (
         // Render the main content of your app
         <>
-          <Navbar />
+          <Header/>
           {/* Include the Canvas component */}
           <Body/>
           <Card/>

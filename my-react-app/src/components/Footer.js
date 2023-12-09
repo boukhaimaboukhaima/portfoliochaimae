@@ -2,7 +2,7 @@ import React from 'react';
 import '../Footer.css';
 const Footer = () => {
   return (
-    <div class="horizontal-scroll2"><div class="horizontal-scroll"></div></div>
+    <div className="horizontal-scroll2"><div className="horizontal-scroll"></div></div>
 
   );
 };

@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <div className="card">
       <div  className="card-img">
-      
+
       </div>
       <div className="card-info">
       <img  src={logo} alt="Card" />
