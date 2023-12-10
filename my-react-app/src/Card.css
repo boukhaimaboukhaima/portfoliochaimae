@@ -1,8 +1,8 @@
 .card {
     background-size: cover;
-   
+   margin-left: 10%;
     margin-top: 10%;
-    width: 100%;
+    width: 1000px;
     height: 494px;
     border-radius: 1em;
     padding: 1.9rem;
