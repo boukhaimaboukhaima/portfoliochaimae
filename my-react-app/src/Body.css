@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 body{
-  padding: 40px;
+  padding: 50px;
    
 }
-
+.container{
+ margin-top: 5%;
+}
 .p2 {
-  
+ 
   border-right: solid 3px #2196f3;
   white-space: nowrap;
   overflow: hidden;    
