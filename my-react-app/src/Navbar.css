@@ -55,11 +55,11 @@ body.dark-mode {
 }
 
 .nav-item:hover {
-    background-color: #ade8f4a2;
+    background-color: hsla(190, 76%, 82%, 0.452);
 }
 
 .active {
-    background-color: #ade8f4a2;
+    background-color:hsla(190, 76%, 82%, 0.452);
 }
 
 .dark-mode-button {
@@ -71,7 +71,7 @@ body.dark-mode {
 }
 
 .dark-mode-button:hover {
-    background-color: #ade8f4a2;
+    background-color: hsla(190, 76%, 82%, 0.452);
     color: inherit;
 }
 
