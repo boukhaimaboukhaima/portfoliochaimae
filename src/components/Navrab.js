@@ -51,7 +51,7 @@ const Navbar = () => {
         <li className="dark-mode-button" onClick={toggleDarkMode}>
           <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
           &nbsp;
-          <span>{darkMode ? 'Light Mode' : 'Dark Mode'}</span>
+          
         </li>
       </ul>
     </nav>
